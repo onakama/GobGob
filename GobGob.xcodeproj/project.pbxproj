@@ -11,6 +11,12 @@
 		5C4E26B3287C5E2A00ACE4CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E26B2287C5E2A00ACE4CB /* ContentView.swift */; };
 		5C4E26B5287C5E2B00ACE4CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E26B4287C5E2B00ACE4CB /* Assets.xcassets */; };
 		5C4E26B8287C5E2B00ACE4CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4E26B7287C5E2B00ACE4CB /* Preview Assets.xcassets */; };
+		5CB0C67128803F1B004CBFD8 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67028803F1B004CBFD8 /* Piece.swift */; };
+		5CB0C67328803F34004CBFD8 /* PieceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67228803F34004CBFD8 /* PieceList.swift */; };
+		5CB0C67528803F40004CBFD8 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67428803F40004CBFD8 /* Size.swift */; };
+		5CB0C67728803F6A004CBFD8 /* Camp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67628803F6A004CBFD8 /* Camp.swift */; };
+		5CB0C67928803FD4004CBFD8 /* GobGobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67828803FD4004CBFD8 /* GobGobModel.swift */; };
+		5CB0C67B28804024004CBFD8 /* HandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB0C67A28804024004CBFD8 /* HandModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		5C4E26B2287C5E2A00ACE4CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C4E26B4287C5E2B00ACE4CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C4E26B7287C5E2B00ACE4CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CB0C67028803F1B004CBFD8 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		5CB0C67228803F34004CBFD8 /* PieceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceList.swift; sourceTree = "<group>"; };
+		5CB0C67428803F40004CBFD8 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		5CB0C67628803F6A004CBFD8 /* Camp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camp.swift; sourceTree = "<group>"; };
+		5CB0C67828803FD4004CBFD8 /* GobGobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobGobModel.swift; sourceTree = "<group>"; };
+		5CB0C67A28804024004CBFD8 /* HandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				5C4E26B0287C5E2A00ACE4CB /* GobGobApp.swift */,
 				5C4E26B2287C5E2A00ACE4CB /* ContentView.swift */,
+				5CB0C67028803F1B004CBFD8 /* Piece.swift */,
+				5CB0C67228803F34004CBFD8 /* PieceList.swift */,
+				5CB0C67428803F40004CBFD8 /* Size.swift */,
+				5CB0C67628803F6A004CBFD8 /* Camp.swift */,
+				5CB0C67828803FD4004CBFD8 /* GobGobModel.swift */,
+				5CB0C67A28804024004CBFD8 /* HandModel.swift */,
 				5C4E26B4287C5E2B00ACE4CB /* Assets.xcassets */,
 				5C4E26B6287C5E2B00ACE4CB /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB0C67328803F34004CBFD8 /* PieceList.swift in Sources */,
+				5CB0C67528803F40004CBFD8 /* Size.swift in Sources */,
 				5C4E26B3287C5E2A00ACE4CB /* ContentView.swift in Sources */,
+				5CB0C67928803FD4004CBFD8 /* GobGobModel.swift in Sources */,
 				5C4E26B1287C5E2A00ACE4CB /* GobGobApp.swift in Sources */,
+				5CB0C67728803F6A004CBFD8 /* Camp.swift in Sources */,
+				5CB0C67B28804024004CBFD8 /* HandModel.swift in Sources */,
+				5CB0C67128803F1B004CBFD8 /* Piece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
